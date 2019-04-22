@@ -43,7 +43,7 @@ def validate(b32secretKey, userOTP, window = 4):
 	return False
 
 def qrCodeURL(secretKey):  #Using standard goggle api to generate QR code which will be then used by google authenticator app
-	return "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=otpauth://totp/Lybrate?secret="+secretKey+"&chld=H|0"
+	return "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=otpauth://totp/Sandesh?secret="+secretKey+"&chld=H|0"
 
 
 #This is for testing only
